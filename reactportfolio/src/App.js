@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
-import Home from './components/pages/Home';
-import Projects from './components/pages/projects';
-import Contact from './components/pages/Contact';
+import Home from './components/pages/Home/Home';
+import Projects from './components/pages/Projects/Projects';
+import Contact from './components/pages/Contact/Contact';
 
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="mainApp">
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
         <Routes>

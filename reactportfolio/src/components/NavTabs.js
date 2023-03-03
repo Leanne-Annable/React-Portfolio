@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import "./NavTabs.css";
 
 function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
+        {/* Used code from 13.3.6 coursework for Navbar layout */}
         {/* NavLink is the same as using an <a> tag e.g <a href="/about">About</a>*/}
         <NavLink
           to="/"
