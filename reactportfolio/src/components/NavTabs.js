@@ -39,6 +39,8 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
+
+      <h2 className="title">My Portfolio</h2>
     </ul>
   );
 }

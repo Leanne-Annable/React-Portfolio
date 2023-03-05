@@ -1,0 +1,11 @@
+.title{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.nav-item{
+    /* insert css styling for the nav tabs here */
+    font-weight: 500;
+    /* background-color: ; */
+}

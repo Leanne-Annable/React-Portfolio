@@ -10,7 +10,9 @@ function App() {
   return (
     <Router>
       <div className="mainApp">
-        <NavTabs />
+        <header>
+          <NavTabs />
+        </header>
         {/* Wrap Route elements in a Routes component */}
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
@@ -19,6 +21,7 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
+
       </div>
     </Router>
   );
