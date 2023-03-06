@@ -27,7 +27,7 @@ function Form() {
       return
     }
 
-    // Alert the user their first and last name, clear `firstName` and `lastName` and `password`, clearing the inputs
+    // Alert the user their first and last name, clear `firstName` and `lastName`, clearing the inputs
     alert(`Hello ${formData.Name}. Thank you for your message!`);
     setFormData({
       Name: "",
@@ -36,7 +36,6 @@ function Form() {
     });
   };
 
-  // Notice how each input has a `value`, `name`, and `onChange` prop
   return (
     <div>
       <form className="form" action="https://getform.io/f/a9a268da-e352-41b8-ab58-344c573c8f7f" method="POST">
