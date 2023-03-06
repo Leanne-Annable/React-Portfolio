@@ -18,11 +18,11 @@ function ProjectCard(props) {
           <li>
             <strong>Description:</strong> {props.description}
           </li>
-        </ul>  
+        </ul>
       </div>
       <div className="webLink">
-        <a href={props.link} target="_blank"  rel="noopener noreferrer"><strong>Click here for the live web page.</strong></a>
-        </div>
+        <a href={props.github} target="_blank" rel="noopener noreferrer"><strong>GitHub Page</strong></a>      |      <a href={props.link} target="_blank" rel="noopener noreferrer"><strong>Web page</strong></a>
+      </div>
     </div>
   )
 }

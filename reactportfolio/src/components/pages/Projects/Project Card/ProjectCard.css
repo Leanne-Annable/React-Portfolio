@@ -22,8 +22,11 @@
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
-    width: 90%;
     align-content: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100%;
 }
 
 .card>.content {
@@ -46,6 +49,6 @@
     margin-bottom: 5px;
 }
 
-.webLink:hover{
+.webLink:hover {
     text-decoration: underline;
 }

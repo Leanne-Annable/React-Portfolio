@@ -39,7 +39,7 @@ function Form() {
   // Notice how each input has a `value`, `name`, and `onChange` prop
   return (
     <div>
-      <form className="form">
+      <form className="form" action="https://getform.io/f/a9a268da-e352-41b8-ab58-344c573c8f7f" method="POST">
         <input
           value={formData.Name}
           name="Name"
@@ -67,7 +67,7 @@ function Form() {
           className="comments formSect"
         />
         <br/>
-        <button onClick={handleFormSubmit} className="btn formButton">Submit</button>
+        <button onClick={handleFormSubmit} className="btn formButton" type="submit">Submit</button>
       </form>
     </div>
   );

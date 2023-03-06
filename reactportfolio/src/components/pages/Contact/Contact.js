@@ -13,7 +13,7 @@ function Contact(props) {
       </p>
       <div className="contactSect">
         <div>
-          <a href="mailto:l.annable@outlook.com" target="_blank" class="card-link btn" rel="noopener noreferrer"><i class="fa-solid fa-at"></i> Email me! </a>
+          <a href="mailto:crazybutlazy87@hotmail.com" target="_blank" class="card-link btn" rel="noopener noreferrer"><i class="fa-solid fa-at"></i> Email me!</a>
         </div>
         <div>
           <a href="https://github.com/Leanne-Annable" target="_blank" class="card-link btn" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> My GitHub page!</a>
@@ -21,24 +21,20 @@ function Contact(props) {
         <div>
           <a href="https://www.linkedin.com/in/leanne-annable-382a41260/" target="_blank" class="card-link btn" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
         </div>
-        <div>
-          {/* Add PDF */}
-        </div>
+        
       </div>
       {/* Contact page:
 
 Must include contact information:
 
-Email address
-
 Link to a PDF version of your CV
-
-Link to your GitHub profile
-
-Link to your LinkedIn page
 
 Must have a contact form for handling events */}
       <Form />
+      <br/>
+      <div>
+         <iframe src="https://drive.google.com/file/d/1iIySV1BkhG_Vfu3YoKYwXDpap6M2MCFP/preview?usp=sharing" title="Leanne Annable CV" className="resume"></iframe>
+        </div>
     </div>
   );
 }

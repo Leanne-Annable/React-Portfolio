@@ -22,7 +22,7 @@ function Projects() {
       <div>
         <h3 className="projectsTitle">Projects:</h3>
         <div className="projects">
-        {projects.map(p => <ProjectCard name={p.name} description={p.description} img={p.image} link={p.link}/>)}
+        {projects.map(p => <ProjectCard name={p.name} description={p.description} img={p.image} link={p.link} github={p.github}/>)}
       </div>
       </div>
       {/* need six links to six challenge projects
