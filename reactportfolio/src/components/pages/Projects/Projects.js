@@ -15,8 +15,6 @@ function Projects() {
         <li><i className="fab fa-html5 fa-x"> HTML</i></li>
         <li><i className="fab fa-css3-alt fa-x"> CSS</i></li>
         <li><i className="fab fa-js-square fa-x"> JavaScript</i></li>
-        <li><i className="fab fa-node-js fa-x"> Node</i></li>
-        <li><i className="fab fa-react fa-x"> React</i></li>
       </ul>
       </div>
       <div>
@@ -25,26 +23,6 @@ function Projects() {
         {projects.map(p => <ProjectCard name={p.name} description={p.description} img={p.image} link={p.link} github={p.github}/>)}
       </div>
       </div>
-      {/* need six links to six challenge projects
-Must render six instances of the Project component dynamically
-
-Be sure to store your project details data in a JSON file and import it into your project (spongebob project)
-
-Project:
-
-Must be a reusable component that ingests JSON data as props and renders a single instance for each project
-
-Must utilize Router props to properly render the right project based on user selection
-
-Must render the following info:
-
-Project title
-
-Link to the deployed version
-
-Link to the GitHub repository
-
-GIF or screenshot of the deployed application */}
     </div>
   );
 }
