@@ -4,7 +4,7 @@ import "./NavTabs.css";
 
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs topnav">
       <li className="nav-item">
         {/* Used code from 13.3.6 coursework for Navbar layout */}
         {/* NavLink is the same as using an <a> tag e.g <a href="/about">About</a>*/}

@@ -1,6 +1,5 @@
 .home{
     text-align: center;
-    /* background-image: url("../../Images/Nara-traditional-hall.jpg"); */
 }
 
 .brandStatement{
@@ -8,9 +7,6 @@
 }
 
 .portrait{
-    /* position: relative; */
-    /* top: 50px; */
-    /* left: 50px; */
     max-width: 250px;
     border: 10px black;
     border-radius: 50%;

@@ -16,3 +16,7 @@ ul{
 .projectsTitle{
     text-align: left;
 }
+a {
+    color: black !important;
+    text-decoration: none !important;
+}

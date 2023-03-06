@@ -54,7 +54,7 @@ function Form() {
           name="email"
           onChange={handleInputChange}
           type="text"
-          placeholder="email address"
+          placeholder="Email address"
           className="email formSect"
         />
         <br/>
@@ -66,6 +66,7 @@ function Form() {
           placeholder="Please write any comments or questions here."
           className="comments formSect"
         />
+        <br/>
         <button onClick={handleFormSubmit} className="btn formButton">Submit</button>
       </form>
     </div>

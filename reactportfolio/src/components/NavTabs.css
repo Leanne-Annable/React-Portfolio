@@ -4,8 +4,9 @@
     right: 10px;
 }
 
-.nav-item{
+.nav-item a{
     /* insert css styling for the nav tabs here */
     font-weight: 500;
+    color: black;
     /* background-color: ; */
 }
